@@ -1,0 +1,18 @@
+bhai arr = [10, 20, 30, 40, 50, 60, 70]
+bhai n = len(arr)
+bhai target = 30
+
+bhai index = -1
+jab tak(i < n) {
+    agar (arr[i] == target) {
+        index = i
+        toor
+    }
+    i += 1
+}
+
+agar (index != -1) {
+    bhai bolo(target, " found at index ", index)
+} anyatha {
+    bhai bolo(target, " not found in the array.")
+}

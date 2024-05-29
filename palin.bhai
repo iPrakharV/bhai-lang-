@@ -1,0 +1,20 @@
+bhai word = "level"
+bhai is_palindrome = true
+
+bhai start = 0
+bhai end = len(word) - 1
+
+jab tak(start < end) {
+    agar (word[start] != word[end]) {
+        is_palindrome = false
+        toor
+    }
+    start += 1
+    end -= 1
+}
+
+agar (is_palindrome) {
+    bhai bolo(word, " is a palindrome.")
+} anyatha {
+    bhai bolo(word, " is not a palindrome.")
+}

@@ -1,0 +1,16 @@
+bhai number = 23
+bhai is_prime = true
+
+jab tak(i <= number / 2) {
+    agar (number % i == 0) {
+        is_prime = false
+        toor
+    }
+    i += 1
+}
+
+agar (is_prime) {
+    bhai bolo(number, " is a prime number.")
+} anyatha {
+    bhai bolo(number, " is not a prime number.")
+}
