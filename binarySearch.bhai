@@ -1,0 +1,26 @@
+bhai arr = [2, 4, 7, 10, 13, 15, 18, 22, 25]
+bhai n = len(arr)
+bhai target = 13
+
+bhai low = 0
+bhai high = n - 1
+bhai found = false
+
+jab tak(low <= high) {
+    bhai mid = (low + high) / 2
+    agar (arr[mid] == target) {
+        found = true
+        toor
+    }
+    agar (arr[mid] < target) {
+        low = mid + 1
+    } anyatha {
+        high = mid - 1
+    }
+}
+
+agar (found) {
+    bhai bolo(target, " found at index ", mid)
+} anyatha {
+    bhai bolo(target, " not found in the array.")
+}
