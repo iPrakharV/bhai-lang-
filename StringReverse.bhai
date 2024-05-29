@@ -1,0 +1,11 @@
+bhai word = "hello"
+bhai reversed_word = ""
+
+bhai i = len(word) - 1
+jab tak(i >= 0) {
+    reversed_word += word[i]
+    i -= 1
+}
+
+bhai bolo("Reversed word: ")
+bhai bolo(reversed_word)
