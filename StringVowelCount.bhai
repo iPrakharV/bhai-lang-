@@ -1,0 +1,11 @@
+bhai word = "hello"
+bhai count = 0
+
+jab tak(i < len(word)) {
+    agar (word[i] == 'a' || word[i] == 'e' || word[i] == 'i' || word[i] == 'o' || word[i] == 'u') {
+        count += 1
+    }
+    i += 1
+}
+
+bhai bolo("Number of vowels in ", word, ": ", count)
