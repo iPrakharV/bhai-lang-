@@ -1,0 +1,18 @@
+bhai arr = [5, 3, 8, 4, 2]
+bhai n = len(arr)
+
+bhai temp
+jab tak(i < n - 1) {
+    jab tak(j < n - i - 1) {
+        agar (arr[j] > arr[j + 1]) {
+            temp = arr[j]
+            arr[j] = arr[j + 1]
+            arr[j + 1] = temp
+        }
+        j += 1
+    }
+    i += 1
+}
+
+bhai bolo("Sorted Array: ")
+bhai bolo(arr)
