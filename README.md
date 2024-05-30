@@ -4,7 +4,7 @@ This repository contains a series of basic programming exercises implemented in 
 
 ## Getting Started
 
-To run these programs, you'll need to have BhaiLang installed on your machine. Follow the installation instructions on the [official BhaiLang GitHub page](https://github.com/bhailang/bhailang).
+To run these programs, you'll need to have BhaiLang installed on your machine. Follow the installation instructions on the [official BhaiLang GitHub page](https://github.com/DulLabs/bhai-lang).
 
 ### Running the Programs
 
